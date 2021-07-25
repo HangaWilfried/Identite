@@ -1,0 +1,39 @@
+#content{
+    display: flex;
+    margin: 30px 40px;
+}
+#contentmakeuserinfo, #userinfocomplete{
+    border: 1px solid gray;
+    box-sizing: content-box;
+    padding: 20px;
+    border-radius: 5px;
+    display: block;
+    float: left;
+}
+#content #userinfocomplete{
+    margin-left: 30px;
+}
+
+span{
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: 1px solid gray;
+}
+.chooseaction{
+    margin: 15px 0;
+    display: inline-flex;
+}
+.chooseaction .firstspan{
+    margin-right: 80px;
+}
+input{
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: 1px solid gray;
+    margin: 20px 0;
+    outline: none;
+    display: block;
+}
+#nameinput{
+    margin-top: 40px;
+}
